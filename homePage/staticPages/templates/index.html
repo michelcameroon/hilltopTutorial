@@ -1,0 +1,28 @@
+<!-- djangotemplates/example/templates/index.html-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Welcome Home</title>
+</head>
+<body>
+
+  <h1> new project </h1>
+
+  <p> 
+    descption here
+    <br />
+    foto example 
+  </p>
+
+  <p>
+    <img src='/static/images/image1.png' />
+  </p>
+  <p> 
+   <img src='/static/images/images3.png' />
+</p>
+  <a href="{% url 'home' %}">Go Home</a>
+  <a href="{% url 'about' %}">About This Site</a>
+</body>
+</html>

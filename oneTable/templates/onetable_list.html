@@ -1,0 +1,11 @@
+list
+<h1>This is the list:</h1>
+
+<ul>
+{% for oneTable in object_list %}
+    <li>{{ oneTable }}</li>
+{% empty %}
+    <li>No record yet.</li>
+{% endfor %}
+</ul>
+
